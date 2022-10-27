@@ -1,10 +1,4 @@
 {
-  "name": "05-design-system",
-  "version": "1.0.0",
-  "description": "- [ ] Text\r - [ ] Heading\r - [ ] Box\r - [ ] Button\r - [ ] TextInput\r - [ ] TextArea\r - [ ] Checkbox\r - [ ] Avatar\r - [ ] MultiStep",
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "private": true,
   "workspaces": [
     "packages/*"
