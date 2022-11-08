@@ -8,6 +8,11 @@ export default {
     currentStep: 1,
     size: 4,
   },
+  argTypes: {
+    onChangeStep: {
+      name: 'changeStep',
+    },
+  },
   decorators: [
     (Story) => (
       <Box css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}>
