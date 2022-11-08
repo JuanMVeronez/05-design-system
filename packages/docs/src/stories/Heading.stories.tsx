@@ -6,6 +6,15 @@ export default {
   component: Heading,
   args: {
     children: 'Lorem ipsum dolor sit amet',
+    size: 'md',
+  },
+  argTypes: {
+    size: {
+      options: ['xxs', 'xs', 'sm', 'md', 'lg', 'xl', '2xl', '4xl', '5xl'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
   },
 } as Meta<HeadingProps>
 

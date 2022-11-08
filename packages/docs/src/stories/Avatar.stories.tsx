@@ -8,6 +8,11 @@ export default {
     src: 'https://github.com/JuanMVeronez.png',
     alt: 'Juan Monteiro',
   },
+  argTypes: {
+    src: {
+      control: { type: 'text' },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
