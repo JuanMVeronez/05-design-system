@@ -7,7 +7,7 @@ export default {
   component: Button,
   args: {
     children: 'Send',
-    variant: 'secondary',
+    variant: 'primary',
     size: 'md',
     disabled: false,
   },
