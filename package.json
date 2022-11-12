@@ -3,12 +3,17 @@
   "scripts": {
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=@jmv-ui/docs && changeset publish"
+
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
+    "@changesets/cli": "^2.25.2",
     "turbo": "^1.6.2"
   }
 }
